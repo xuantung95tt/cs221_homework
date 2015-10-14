@@ -74,6 +74,8 @@ def test3g():
     grader.requireIsEqual(1, submission.computeLongestPalindrome("ab"))
     grader.requireIsEqual(3, submission.computeLongestPalindrome("animal"))
     grader.requireIsEqual(5, submission.computeLongestPalindrome("ababa"))
+    grader.requireIsEqual(15, submission.computeLongestPalindrome("cddddcbabcddddc"))
+    grader.requireIsEqual(15, submission.computeLongestPalindrome("c dddcbabcddd c"))
 grader.addBasicPart('3g-0', test3g)
 
 
